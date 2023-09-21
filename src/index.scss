@@ -1,0 +1,55 @@
+.cursor-pointer {
+    cursor: pointer;
+  }
+
+  /* YourComponent.scss or global.scss */
+
+// Button A and Modal Button A
+.button-a {
+  background-color: #46139f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+  &:hover {
+    background-color: #3c0f8c; /* Slightly darker shade on hover */
+  }
+}
+
+// Button B and Modal Button B
+.button-b {
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+  &:hover {
+    background-color: #e66e41; /* Slightly darker shade on hover */
+  }
+}
+
+// Button C
+.button-c {
+  background-color: white;
+  color: #46139f;
+  border: 2px solid #46139f;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+  &:hover {
+    background-color: #f0f0f0; /* Slightly darker shade on hover */
+  }
+}
+
+.input {
+  width: 100%;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+  
